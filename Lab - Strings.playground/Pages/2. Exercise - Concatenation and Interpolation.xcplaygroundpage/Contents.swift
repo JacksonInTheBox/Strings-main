@@ -6,7 +6,11 @@
 
 
 //:  Use the compound assignment operator (`+=`) to add `home` to `introduction` below. Print the value of `introduction`.
+var city = "Orange"
+var state = "New Jersey"
+var home = city + ", " + state
 var introduction = "I live in "
+introduction += home
 
 
 /*:
@@ -16,7 +20,9 @@ var introduction = "I live in "
  
  Insert `name` where indicated, and insert a mathematical expression that evaluates to your current age plus one where indicated.
  */
-
+var name = "juan"
+var age = 16
+print("My name is " + name + " and after my next birthday I will be " + String(age) + " years old.")
 
 /*:
 [Previous](@previous)  |  page 2 of 5  |  [Next: App Exercise - Notifications](@next)
